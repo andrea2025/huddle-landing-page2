@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap");
+
+body
+{
+    background: url("images/bg-mobile.svg") no-repeat center center fixed;
+    background-color: #674baf;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-size: 12px;
+    font-size: 1em;
+  }
+  
+  .image {
+      width: 100%;
+      height: auto;
+      margin-top: 60px;
+  }
+
+  h1 {
+      font-family: "Poppins", sans-serif;
+     }
+
+  #move {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  #bottom{
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  button {
+    background: white;
+    color: #674baf;
+    padding:10px 30px 10px 30px;
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 10px;
+  }
+
+.social{
+    font-size: 24px;
+    margin: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 70px;
+    
+}
+    @media screen and (min-width: 800px) {
+        body {
+          background: url("images/bg-desktop.svg") no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-color: #674baf; 
+        }
+
+.social {
+    text-align: right;
+}
